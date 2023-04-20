@@ -1,0 +1,39 @@
+.acc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+    .link {
+        color: #1677ff;
+    
+        &:hover {
+            color: #7eb2fa;
+        }
+    }
+
+    &-title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    &-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 900px;
+    }
+
+    &-input-title {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    &-grid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        row-gap: 10px;
+        max-width: 500px;
+    }
+}

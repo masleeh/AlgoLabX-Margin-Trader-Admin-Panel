@@ -1,0 +1,24 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.inl-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link {
+    color: #1677ff;
+
+    &:hover {
+        color: #7eb2fa;
+    }
+}
+
+.container {
+    max-width: 940px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
